@@ -15,7 +15,5 @@ def get_kernel(name):
         return gaussian
     elif lowername == 'tophat':
         return tophat
-    elif lowername == 'epanechnikov':
-        return epanechnikov
     else:
         raise NameError('Unknown kernel: %s' % name)
